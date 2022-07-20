@@ -30,6 +30,14 @@ span a {
     margin-right: 10px;
 }
 
+/* Animation Style  */
+.animation{
+    transition: transform 2s;
+}
+.animation:hover{
+    transform: rotate(15deg);
+}
+
 /* Nav and Article Styles */
 .second-part {
     display: grid;
